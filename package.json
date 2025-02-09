@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.3.1"
+    "@solana/web3.js": "^1.98.0",
+    "node-fetch": "^3.3.1",
+    "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
